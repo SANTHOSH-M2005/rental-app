@@ -97,7 +97,7 @@ const Favorites = () => {
                     <h3 className="text-xl font-semibold mb-2">
                       {favorite.sale_brand} {favorite.sale_model}
                     </h3>
-                    <p className="text-gray-600 mb-2">For Sale: ${favorite.sale_price}</p>
+                    <p className="text-gray-600 mb-2">For Sale: RS{favorite.sale_price}</p>
                     <p className="text-gray-600 mb-4">For Sale</p>
                     <div className="flex justify-between items-center">
                       <Link 

@@ -57,7 +57,7 @@ const SaleDetail = ({ isAuthenticated }) => {
           <div className="grid grid-cols-2 gap-4 mb-6">
             <div>
               <span className="text-sm text-gray-500">Price:</span>
-              <span className="text-2xl font-bold ml-1">${sale.price}</span>
+              <span className="text-2xl font-bold ml-1">{sale.price}</span>
             </div>
             <div>
               <span className="text-sm text-gray-500">Condition:</span>

@@ -16,8 +16,8 @@ const Header = ({ isAuthenticated, user, onLogout }) => {
         
         <nav className="flex items-center space-x-6">
           <Link to="/" className="hover:text-blue-200">Home</Link>
-          <Link to="/vehicles" className="hover:text-blue-200">Rent</Link>
-          <Link to="/sales" className="hover:text-blue-200">Buy/Sell</Link>
+          {/* <Link to="/vehicles" className="hover:text-blue-200">Rent</Link> */}
+          <Link to="/sales" className="hover:text-blue-200">Rent</Link>
           
           {isAuthenticated ? (
             <div className="flex items-center space-x-4">

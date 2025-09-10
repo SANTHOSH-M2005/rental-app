@@ -110,7 +110,7 @@ const VehicleList = () => {
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Min Price ($/day)</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Min Price (RS/day)</label>
             <input
               type="number"
               name="minPrice"
@@ -122,7 +122,7 @@ const VehicleList = () => {
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Max Price ($/day)</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Max Price (RS/day)</label>
             <input
               type="number"
               name="maxPrice"

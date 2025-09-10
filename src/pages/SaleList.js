@@ -121,7 +121,7 @@ const SaleList = () => {
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Min Price ($)</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Min Price (RS)</label>
             <input
               type="number"
               name="minPrice"
@@ -133,7 +133,7 @@ const SaleList = () => {
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Max Price ($)</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Max Price (RS)</label>
             <input
               type="number"
               name="maxPrice"
